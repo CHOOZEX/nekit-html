@@ -55,11 +55,11 @@ body {
 
 .button {
     border-radius: 1000px;
-    border: none; /* Убираем рамку */
+    border: none; 
     padding: 10px 30px;
     background: linear-gradient(to right, #0090D9, #00D96C);
     color: #fff;
-    font-size: 16px; /* Размер шрифта */
+    font-size: 16px; 
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
     display: inline-block;
