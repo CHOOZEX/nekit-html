@@ -67,7 +67,7 @@ body {
     text-decoration: none;
 }
 .button:hover {
-    background: linear-gradient(to right, #00D96C, #0090D9); /* Меняем направление градиента при наведении */
+    background: linear-gradient(to right, #00D96C, #0090D9); 
     transform: scale(1.05);
 .button:hover {
     background: lightseagreen;
@@ -81,15 +81,15 @@ body {
     margin-left: 390px;
 }
 .heading {
-    font-size: 2rem; /* Установите размер текста заголовка */
-    color: white; /* Цвет текста заголовка */
-    text-align: center; /* Выравнивание текста по центру */
-    margin-top: 60px; /* Отступ сверху */
+    font-size: 2rem; 
+    color: white; 
+    text-align: center; 
+    margin-top: 60px; 
 }
 .text{
-    font-size: 20px; /* Установите размер текста заголовка */
-    color: white; /* Цвет текста заголовка */
-    text-align: center; /* Выравнивание текста по центру */
+    font-size: 20px; 
+    color: white;
+    text-align: center; 
     margin-top: 30px;
 }
 .secButton{
