@@ -55,15 +55,28 @@ body {
 
 .button {
     border-radius: 1000px;
-    border: 1px solid lightseagreen;
+    border: none; /* Убираем рамку */
     padding: 10px 30px;
-    background: none;
+    background: linear-gradient(to right, #0090D9, #00D96C);
     color: #fff;
+    font-size: 16px; /* Размер шрифта */
     cursor: pointer;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
-
+.button:hover {
+    background: linear-gradient(to right, #00D96C, #0090D9); /* Меняем направление градиента при наведении */
+    transform: scale(1.05);
 .button:hover {
     background: lightseagreen;
     color: black;
+}
+}
+.imageJPG{
+    width: 900px;
+    height: auto;
+    margin-top: auto;
+    margin-left: 270px;
 }
