@@ -32,25 +32,25 @@ body {
     margin-left: 30px;
     color: white;
     text-decoration: none;
-    position: relative; /* Нужно для позиционирования псевдоэлемента */
-    transition: color 0.3s ease; /* Плавный переход для цвета текста */
+    position: relative; 
+    transition: color 0.3s ease; 
 }
 
 .header__nav-link::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -3px; /* Расположение полоски под текстом */
+    bottom: -3px; 
     width: 100%;
-    height: 3px; /* Толщина полоски */
+    height: 3px; 
     background: linear-gradient(to right, #0090D9, #00D96C);
-    transform: scaleX(0); /* Изначально полоска скрыта */
+    transform: scaleX(0); 
     transform-origin: bottom left;
-    transition: transform 0.3s ease; /* Плавное появление */
+    transition: transform 0.3s ease; 
 }
 
 .header__nav-link:hover::after {
-    transform: scaleX(1); /* Полоска появляется при наведении */
+    transform: scaleX(1); 
 }
 
 .button {
