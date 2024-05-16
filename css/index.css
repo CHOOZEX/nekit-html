@@ -32,30 +32,30 @@ body {
     margin-left: 30px;
     color: white;
     text-decoration: none;
-    position: relative; 
-    transition: color 0.3s ease; 
+    position: relative;
+    transition: color 0.3s ease;
 }
 
 .header__nav-link::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -3px; 
+    bottom: -3px;
     width: 100%;
-    height: 3px; 
+    height: 3px;
     background: linear-gradient(to right, #0090D9, #00D96C);
-    transform: scaleX(0); 
+    transform: scaleX(0);
     transform-origin: bottom left;
-    transition: transform 0.3s ease; 
+    transition: transform 0.3s ease;
 }
 
 .header__nav-link:hover::after {
-    transform: scaleX(1); 
+    transform: scaleX(1);
 }
 
 .button {
     border-radius: 1000px;
-    border: none; /* Убираем рамку */
+    border: 1px; /* Убираем рамку */
     padding: 10px 30px;
     background: linear-gradient(to right, #0090D9, #00D96C);
     color: #fff;
@@ -75,8 +75,34 @@ body {
 }
 }
 .imageJPG{
-    width: 900px;
-    height: auto;
-    margin-top: auto;
-    margin-left: 270px;
+    width: 700px;
+    height: 350px;
+    margin-top: 70px;
+    margin-left: 390px;
+}
+.heading {
+    font-size: 2rem; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 60px; /* Отступ сверху */
+}
+.text{
+    font-size: 20px; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 30px;
+}
+.secButton{
+    border-radius: 1000px;
+    border: 1px solid lightseagreen;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
 }
