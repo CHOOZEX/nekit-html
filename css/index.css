@@ -1,22 +1,69 @@
-body{
+body {
     background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.header{
+.header {
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
+    padding: 20px 0;
 }
-.header__nav-link{
-    margin-left: 30px;
+.header__nav-link:hover {
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
-.button{
-border-radius: 1000px;
-    width: 120px;
-    height: 40px;
-    background: none;
 
+.header__nav-link:hover {
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.header__nav-link {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    position: relative; /* Нужно для позиционирования псевдоэлемента */
+    transition: color 0.3s ease; /* Плавный переход для цвета текста */
+}
+
+.header__nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Расположение полоски под текстом */
+    width: 100%;
+    height: 3px; /* Толщина полоски */
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    transform: scaleX(0); /* Изначально полоска скрыта */
+    transform-origin: bottom left;
+    transition: transform 0.3s ease; /* Плавное появление */
+}
+
+.header__nav-link:hover::after {
+    transform: scaleX(1); /* Полоска появляется при наведении */
+}
+
+.button {
+    border-radius: 1000px;
+    border: 1px solid lightseagreen;
+    padding: 10px 30px;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background: lightseagreen;
+    color: black;
 }
