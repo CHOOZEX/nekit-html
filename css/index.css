@@ -77,19 +77,15 @@ body {
 .imageJPG{
     width: 700px;
     height: 350px;
-    margin-top: 70px;
-    margin-left: 390px;
 }
 .heading {
     font-size: 2rem; /* Установите размер текста заголовка */
     color: white; /* Цвет текста заголовка */
-    text-align: center; /* Выравнивание текста по центру */
     margin-top: 60px; /* Отступ сверху */
 }
 .text{
     font-size: 20px; /* Установите размер текста заголовка */
     color: white; /* Цвет текста заголовка */
-    text-align: center; /* Выравнивание текста по центру */
     margin-top: 30px;
 }
 .secButton{
@@ -105,4 +101,11 @@ body {
     text-align: center;
     text-decoration: none;
     margin-top: 20px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
