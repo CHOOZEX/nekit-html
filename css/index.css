@@ -125,6 +125,10 @@ a{
 }
 .sec__container{
     display: flex;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .num__text{
     background: linear-gradient(to right, #0090D9, #00D96C);
@@ -147,12 +151,10 @@ a{
     color: transparent;
     text-align: center;
     font-size: 72px;
-    margin-top: 80px;
-    margin-left: 120px;
+
 }
-.secalpha__text{
+.alpha__text{
     color: darkgray;
-    margin-left: 120px;
 }
 .tripple__numtext{
     background: linear-gradient(to right, #0090D9, #00D96C);
@@ -162,16 +164,15 @@ a{
     color: transparent;
     text-align: center;
     font-size: 72px;
-    margin-top: 80px;
-    margin-left: 120px;
+
 }
-.text__partners{
+.alpha__text{
     color: darkgray;
-    margin-left: 125px;
+
 }
 .asventures{
-
-}
-.asventures__img{
-
+    width: 100%;
+    max-width: 955px;
+    justify-content: center;
+    align-items: center;
 }
