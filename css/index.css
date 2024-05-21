@@ -229,5 +229,17 @@ a{
     justify-content: space-between;
     align-items: center;
 
+
 }
 
+.footer__right{
+
+}
+.footer__image{
+    padding: 10px;
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    border-radius: 250px;
+    margin-left: 15px;
+    width: 16px;
+    height: 13px;
+}
