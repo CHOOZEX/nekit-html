@@ -148,8 +148,8 @@ a{
     height: 645px;
     background-image: url("../assets/dddd.png");
     z-index: 1000;
-    top: 1px;
-    right: 1px;
+    top: -170px;
+    right: -130px;
 }
 
 .sec__text{
@@ -249,6 +249,7 @@ a{
     background-color: rgba(255, 255, 255, 0.25);
     border-radius: 20px;
     padding: 30px 50px;
+
 }
 .footer{
     padding-top: 96px;
