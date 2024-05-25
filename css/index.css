@@ -73,11 +73,11 @@ body {
 
 .button {
     border-radius: 1000px;
-    border: 1px; /* Убираем рамку */
+    border: 1px; 
     padding: 10px 30px;
     background: linear-gradient(to right, #0090D9, #00D96C);
     color: #fff;
-    font-size: 16px; /* Размер шрифта */
+    font-size: 16px; 
     cursor: pointer;
     transition: background 0.3s ease, transform 0.3s ease;
     display: inline-block;
@@ -85,7 +85,7 @@ body {
     text-decoration: none;
 }
 .button:hover {
-    background: linear-gradient(to right, #00D96C, #0090D9); /* Меняем направление градиента при наведении */
+    background: linear-gradient(to right, #00D96C, #0090D9); 
     transform: scale(1.05);
 .button:hover {
     background: lightseagreen;
@@ -97,13 +97,13 @@ body {
     height: 350px;
 }
 .heading {
-    font-size: 2rem; /* Установите размер текста заголовка */
-    color: white; /* Цвет текста заголовка */
-    margin-top: 60px; /* Отступ сверху */
+    font-size: 2rem; 
+    color: white; 
+    margin-top: 60px; 
 }
 .text{
-    font-size: 20px; /* Установите размер текста заголовка */
-    color: white; /* Цвет текста заголовка */
+    font-size: 20px; 
+    color: white; 
     margin-top: 30px;
 }
 .secButton{
