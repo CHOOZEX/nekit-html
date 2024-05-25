@@ -2,10 +2,20 @@ body {
     background-color: black;
     margin: 0;
     font-family: Arial, sans-serif;
-    position: relative;
+
 }
 
-body::after{
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+.header::after{
     position: absolute;
     content: '';
     width: 300px;
@@ -18,18 +28,8 @@ body::after{
     #3CE490 100%);
     z-index: 1000;
     top: 1px;
-    left: 1px;
+    left: -150px;
     filter: blur(100px);
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px 0;
 }
 .header__nav-link:hover {
     background: linear-gradient(to right, #0090D9, #00D96C);
@@ -263,12 +263,6 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-
-}
-
-.footer__right{
-
 }
 .footer__image{
     padding: 10px;
@@ -303,4 +297,3 @@ a{
     top: 220px;
     left: 155px;
 }
-se

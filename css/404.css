@@ -1,0 +1,128 @@
+body {
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+.header__nav-link:hover {
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.header__nav-link:hover {
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.header__nav-link {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.header__nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease;
+}
+
+.header__nav-link:hover::after {
+    transform: scaleX(1);
+}
+
+.button {
+    border-radius: 1000px;
+    border: 1px; /* Убираем рамку */
+    padding: 10px 30px;
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    color: #fff;
+    font-size: 16px; /* Размер шрифта */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.button:hover {
+    background: linear-gradient(to right, #00D96C, #0090D9); /* Меняем направление градиента при наведении */
+    transform: scale(1.05);
+}
+.button:hover {
+    background: lightseagreen;
+    color: black;}
+.imageJPG{
+    width: 700px;
+    height: 350px;
+}
+.heading {
+    font-size: 2rem; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    margin-top: 60px; /* Отступ сверху */
+}
+.text{
+    font-size: 20px; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    margin-top: 30px;
+}
+.imageJPG{
+    width: 700px;
+    height: 350px;
+}
+.heading {
+    font-size: 2rem; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    margin-top: 60px; /* Отступ сверху */
+}
+.text{
+    font-size: 20px; /* Установите размер текста заголовка */
+    color: white; /* Цвет текста заголовка */
+    margin-top: 30px;
+}
+.secButton{
+    border-radius: 1000px;
+    border: 1px solid lightseagreen;
+    padding: 10px 30px;
+    background: linear-gradient(to right, #0090D9, #00D96C);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
