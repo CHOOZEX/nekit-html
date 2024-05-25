@@ -30,6 +30,7 @@ body {
     top: 1px;
     left: -150px;
     filter: blur(100px);
+    z-index: -1;
 }
 .header__nav-link:hover {
     background: linear-gradient(to right, #0090D9, #00D96C);
@@ -252,8 +253,26 @@ a{
 
 }
 .footer{
+    position: relative;
     padding-top: 96px;
     padding-bottom: 56px;
+}
+.footer::after{
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle,
+    #0090D9 0%,
+    #2A8CC2 29%,
+    #0803ED 51%,
+    #C90078 78%,
+    #3CE490 100%);
+    z-index: 1000;
+    top: 1px;
+    left: -125px;
+    filter: blur(100px);
+    z-index: -1;
 }
 .footer__text{
     color: darkgray;
@@ -296,4 +315,21 @@ a{
     position: absolute;
     top: 220px;
     left: 155px;
+}
+.about::after{
+    position: absolute;
+    content: '';
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle,
+    #0090D9 0%,
+    #2A8CC2 29%,
+    #0803ED 51%,
+    #C90078 78%,
+    #3CE490 100%);
+    z-index: 1000;
+    top: 1px;
+    left: 300px;
+    filter: blur(100px);
+    z-index: -1;
 }
